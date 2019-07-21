@@ -9,17 +9,22 @@ const userInput = (props) => {
         width: '30%',
         fontSize: '12pt',
         borderRadius: '5px',
-        marginTop: '30px',
-        textAign: 'center',
+        margin: '30px auto',
+        padding: '0 10px',
         boxShadow: '0 2px 3px rgb(104, 144, 158)',
+        textAlign: 'center'
     };
-    return(        
-        <input 
-        type="text"
-        style={inputStyle}
-        onChange={props.changed}
-        value={props.currentName}/>
-    )
+    return(    
+        <div>
+            <input 
+                type="text"                
+                onChange={props.changed}
+                value={props.currentName}
+                style={inputStyle}
+            />
+        </div>    
+        
+    );
 };
 
 export default userInput;
