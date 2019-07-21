@@ -2,7 +2,7 @@
   "name": "ioapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://goragottsen.github.io/ioapp",
+  "homepage": "http://goragottsen.github.io/ioapp",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
