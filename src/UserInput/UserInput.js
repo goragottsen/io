@@ -7,11 +7,11 @@ const userInput = (props) => {
         height: '3em',
         outline: 'none',
         width: '30%',
-        'font-size': '12pt',
-        'border-radius': '5px',
-        'margin-top': '30px',
-        'text-align': 'center',
-        'box-shadow': '0 2px 3px rgb(104, 144, 158)',
+        fontSize: '12pt',
+        borderRadius: '5px',
+        marginTop: '30px',
+        textAign: 'center',
+        boxShadow: '0 2px 3px rgb(104, 144, 158)',
     };
     return(        
         <input 
